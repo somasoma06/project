@@ -15,11 +15,14 @@ h1{
     display: inline;
     color:hsl(50, 86%, 73%); 
 }
-li{
+.menu{
 background-color: hsl(278, 9%, 64%);
 display: inline-block;
 border-radius: 3px;
 padding: 8px;
+}
+.ava{
+    fill: #f5e27e;
 }
 a{
     font-size: 16px;
@@ -27,6 +30,7 @@ a{
 }
 .bd{
     background-color: hsl(212, 47%, 55%);
+    padding-bottom: 15%;
 }
 .osnova{
 background-color: hsl(212, 100%, 85%) ;
@@ -47,16 +51,71 @@ nav ul{
 }
 
 .o{
-border-radius: 17px;
-padding-top: 45px;
-padding-right: 30%;
+ border-radius: 17px;
+ width: 650px;
+ height: 100px;
 background: #87a9cf;
 }
+.t{
+    border-radius: 17px;
+    width: 850px;
+    height: 60px;
+   background: #e3f593;
+   }
+.th{
+    border-radius: 17px;
+    width: 950px;
+    height: 70px;
+   background: #617bb3;
+ }
+.f{
+    border-radius: 17px;
+    width: 650px;
+    height: 40px;
+   background: #e5ee95;
+ }
+.fv{
+    border-radius: 17px;
+    width: 650px;
+    height: 40px;
+   background: #7d8bdb;
+}
+.sx{
+    border-radius: 17px;
+    width: 550px;
+    height: 50px;
+   background: #e2cc81;
+}
+.osno:hover{
+    transform: scale(1.50);
+    box-shadow: 0 0 15px rgb(234, 235, 209);
+    width: 45%;
+    transition: 1,2s;
+}
+p{
+  font-size: 18px;
+  font-family: "Host Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  flex-direction: column;
+  text-align: center;
+}
 .pedagogi{
-    
+    background-color: rgb(162, 230, 230);
+    border-radius: 3px;
+}
+.pedgg{
+    font-size: 18px;
+    font-family: "Host Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    flex-direction: column;
+    display: inline-flex;
 }
 img{
-width: 20%;
+width: 10%;
+border-radius: 4px;
+display: inline-flex;
 }
 aside{
     display: inline;
